@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="MySuite01">
+    <parameter name="data" value="12.345"></parameter>
+    <parameter name="dataName" value="test Data for learning..." />
+
+    <test name="Test01">
+        <classes>
+            <class name="org.andestech.learning.rfb19.g4.App3Test" >
+                <methods>
+                    <parameter name="data" value="2345.234234" />
+                    <exclude name="checker04Test" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+    <test name="Test02">
+        <classes>
+            <class name="org.andestech.learning.rfb19.g4.App2Test" />
+            <class name="org.andestech.learning.rfb19.g4.AppTest" />
+        </classes>
+    </test>
+
+
+</suite>

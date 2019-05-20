@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MySuite01]">
+  <test thread-count="5" name="Test02(failed)">
+    <classes>
+      <class name="org.andestech.learning.rfb19.g4.AppTest">
+        <methods>
+          <include name="checker02Test"/>
+        </methods>
+      </class> <!-- org.andestech.learning.rfb19.g4.AppTest -->
+      <class name="org.andestech.learning.rfb19.g4.App2Test">
+        <methods>
+          <include name="checker06Test"/>
+        </methods>
+      </class> <!-- org.andestech.learning.rfb19.g4.App2Test -->
+    </classes>
+  </test> <!-- Test02(failed) -->
+</suite> <!-- Failed suite [MySuite01] -->

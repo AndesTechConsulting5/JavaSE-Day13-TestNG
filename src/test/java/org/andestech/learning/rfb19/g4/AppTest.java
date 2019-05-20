@@ -14,7 +14,7 @@ public class AppTest
         System.out.println("+++ ctor: " + this);
     }
 
-    @Test(priority = -1, groups = "fast")
+    @Test(priority = -1000, groups = "fast")
     public void checker01Test()
     {
         // исключительно в учебных целях!!!
